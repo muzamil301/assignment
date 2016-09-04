@@ -1,0 +1,236 @@
+.chosen-container{
+
+  width: 100% !important;
+
+}
+
+.chosen-container .chosen-drop{
+
+  border: 1px solid tint(desaturate($primary, 35%), 25%);
+
+  border-top: none;
+
+  @include box-shadow(0 4px 5px rgba($black, 0.15));
+
+  @include pie;
+
+}
+
+.chosen-container.chosen-with-drop .chosen-drop{
+
+  margin-top: -4px;
+
+}
+
+.chosen-container-single .chosen-single{
+
+  padding: 10px;
+
+  height: 40px;
+
+  background: lighten($black, 100%) !important;
+
+  border: 1px solid lighten($black, 84%);
+
+  color: inherit;
+
+  line-height: 1.5em;
+
+  @include box-shadow(none);
+
+  @include pie;
+
+}
+
+.chosen-container-single .chosen-single div{
+
+  @include position(absolute, $top:0, $right:2px);
+
+  width: 40px;
+
+  height: 40px;
+
+}
+
+.chosen-container .chosen-results li.highlighted{
+
+  background: tint(desaturate($primary, 35%), 25%) !important;
+
+  color: lighten($black, 100%);
+
+}
+
+.chosen-container-multi .chosen-choices{
+
+  padding: 10px 10px 9px 10px;
+
+  min-height: 40px;
+
+  background-color: lighten($black, 100%);
+
+  background-image: none;
+
+  border: 1px solid lighten($black, 84%);
+
+  color: inherit;
+
+}
+
+.chosen-container-multi .chosen-choices li.search-field input[type="text"]{
+
+  height: 16px;
+
+  margin: 2px 0;
+
+  font-size: 14px;
+
+}
+
+.chosen-container-multi .chosen-choices li.search-choice{
+
+  margin: 0 5px 3px 0;
+
+  border: 1px solid lighten($black, 94%);
+
+  background-color: lighten($black, 96%);
+
+}
+
+.chosen-container-active .chosen-single{
+
+  box-shadow: none;
+
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single{
+
+  border: 1px solid tint(desaturate($primary, 35%), 25%);
+
+  @include box-shadow(0 1px 0 lighten($black, 100%) inset);
+
+  @include pie;
+
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single div b{
+
+  background-position: -453px -19px;
+
+}
+
+.chosen-container-active .chosen-choices{
+
+  border: 1px solid tint(desaturate($primary, 35%), 25%);
+
+  box-shadow: none;
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 144dpi){
+
+  .chosen-rtl .chosen-search input[type="text"],
+  .chosen-container-single .chosen-single abbr,
+  .chosen-container-single .chosen-single div b,
+  .chosen-container-single .chosen-search input[type="text"],
+  .chosen-container-multi .chosen-choices .search-choice .search-choice-close,
+  .chosen-container .chosen-results-scroll-down span,
+  .chosen-container .chosen-results-scroll-up span {
+
+  }
+  
+}
+
+.chosen-container{
+
+    position: relative;
+
+    .chosen-single{
+
+      background-color: transparent !important;
+
+      border-color: #fff !important;
+      
+      background-image: none;
+
+      @include border-radius(0);
+
+      span{
+
+        color: #fff;
+
+      }
+
+    }
+
+  }
+
+  .chosen-container-active.chosen-with-drop .chosen-single{
+
+    @include box-shadow(none);
+
+    @include border-radius(0);
+
+  }
+
+  .chosen-container.chosen-with-drop .chosen-drop{
+    
+    border-color: #fff;
+    
+    @include border-radius(0); 
+  
+  }
+  
+  .chosen-container-single .chosen-single div b{
+      
+      height: 39px;
+      
+      width: 40px;
+        
+      background: url('../assets/images/location.jpg') no-repeat 11px 6px;
+
+      @include position(absolute, $right: 0);
+
+      border-left: 1px solid #fff;
+
+  }
+
+  .chosen-container-active.chosen-with-drop .chosen-single div b{
+    
+    background-position: 15px 6px;
+  
+  }
+
+  .chosen-results{
+
+    .highlighted{
+
+      background-color: $grey;
+
+    }
+
+  }
+
+.chosen_container{
+
+	select{
+
+		width: 100%;
+
+		height: 40px;
+
+		background-color: lighten($black, 100%);
+
+		padding: 6px 8px;
+
+		border-color: lighten($black, 84%);
+
+		color: lighten($black, 47%);
+
+		@include box-shadow(none);
+
+		@include pie;
+
+	}
+
+}
+

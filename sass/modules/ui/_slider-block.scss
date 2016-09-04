@@ -1,0 +1,220 @@
+.slider-block{
+
+	.carousel{
+
+		background-color: #b0aeb0;
+
+		.carousel-inner{
+
+			.item{
+
+				.btn{
+
+					@include position(absolute, $top: 38%, $left: 25%);
+
+					@media #{$break-xlarge, $break-large, $break-medium, $break-small, $break-little}{
+
+						font-size: 22px;
+						
+						height: auto;
+												
+						padding: 15px;
+											
+					}
+
+					@media #{$break-xxlarge}{
+
+						left: 20%;
+
+					}
+
+					@media #{$break-xlarge}{
+
+						left: 17%;
+
+					}
+
+					@media #{$break-large}{
+
+						left: 30%;
+
+						top: 40%;
+
+					}
+
+					@media #{$break-medium}{
+
+						left: 30%;
+
+						top: 40%;
+
+					}
+
+					@media #{$break-small}{
+
+						left: 16%;
+
+						top: 40%;
+
+					}
+					
+					@media #{$break-little}{
+
+						font-size: 16px;
+
+						left: 19%;
+
+						top: 34%;
+
+					}
+
+				}
+
+			}
+
+		}
+
+		.caption-box{
+
+			position: relative;
+
+			background-color: $primary;
+
+			ul{
+
+				list-style: none;
+
+
+				min-height: 125px;
+
+				padding: 15px 35px;
+
+				margin: 0;
+
+				@media #{$break-large, $break-medium, $break-small, $break-little}{
+
+					min-height: auto;
+
+					padding: 10px 35px;
+
+				}
+
+				li{
+
+					display: none;
+
+					margin-right: 12%;
+
+					@media #{$break-xlarge, $break-large, $break-medium, $break-small, $break-little}{
+
+						float: none !important;
+
+						margin-right: 0;
+
+						margin-left: 6%;
+
+					}
+
+					figure{
+						
+						width: 81px;
+
+						height: 88px;
+
+						float: left;
+
+						margin-right: 20px;
+
+						@media #{$break-little}{
+
+							display: none;
+
+						}
+						
+						img{
+							
+							border: 1px solid #fff;
+
+						}
+
+					}
+
+					.desc-box{
+
+						display: inline-block;
+
+						p{
+
+							font:{
+
+								size: 16px;
+
+								weight: 700;
+
+							}
+
+							color: lighten($black, 100%);
+
+							margin-bottom: 7px;
+
+						}
+
+						.price{
+
+							color: #ccc;
+
+						}
+
+					}
+
+					&.active{
+
+						display: inline-block;
+
+					}
+
+				}
+
+			}
+
+			.carousel-controls{
+
+				.carousel-control{
+
+					background-color: transparent;
+
+					background-image: none;
+
+					opacity: 1;
+
+				}
+
+			}
+			
+			&.two{
+
+				background-color: $secondary;
+
+				ul{
+
+					li{
+						
+						margin-left: 12%;
+
+						@media #{$break-xlarge, $break-large, $break-medium, $break-small, $break-little}{
+
+							margin-left: 6%;
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

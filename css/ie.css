@@ -1,0 +1,159 @@
+/* line 211, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  behavior: url(http://localhost/cstore3-html/polyfills/box-sizing/boxsizing.htc);
+  behavior: url(http://localhost/cstore3-html/polyfills/box-sizing/boxsizing.php);
+}
+
+/* line 334, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  behavior: url(http://localhost/cstore3-html/polyfills/box-sizing/boxsizing.htc);
+  behavior: url(http://localhost/cstore3-html/polyfills/box-sizing/boxsizing.php);
+}
+
+/* line 357, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_normalize.scss */
+input[type="search"] {
+  box-sizing: content-box;
+  behavior: url(http://localhost/cstore3-html/polyfills/box-sizing/boxsizing.htc);
+  behavior: url(http://localhost/cstore3-html/polyfills/box-sizing/boxsizing.php);
+}
+
+/* line 11, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_scaffolding.scss */
+* {
+  box-sizing: border-box;
+  behavior: url(http://localhost/cstore3-html/polyfills/box-sizing/boxsizing.htc);
+  behavior: url(http://localhost/cstore3-html/polyfills/box-sizing/boxsizing.php);
+}
+
+/* line 14, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_scaffolding.scss */
+*:before,
+*:after {
+  box-sizing: border-box;
+  behavior: url(http://localhost/cstore3-html/polyfills/box-sizing/boxsizing.htc);
+  behavior: url(http://localhost/cstore3-html/polyfills/box-sizing/boxsizing.php);
+}
+
+/* line 47, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_forms.scss */
+input[type="search"] {
+  box-sizing: border-box;
+  behavior: url(http://localhost/cstore3-html/polyfills/box-sizing/boxsizing.htc);
+  behavior: url(http://localhost/cstore3-html/polyfills/box-sizing/boxsizing.php);
+}
+
+/* line 42, ../sass/modules/vendor/_chosen.scss */
+.chosen-container * {
+  box-sizing: border-box;
+  behavior: url(http://localhost/cstore3-html/polyfills/box-sizing/boxsizing.htc);
+  behavior: url(http://localhost/cstore3-html/polyfills/box-sizing/boxsizing.php);
+}
+
+/* line 1, ../sass/modules/vendor/_collapsible-menu.scss */
+* {
+  box-sizing: border-box;
+  behavior: url(http://localhost/cstore3-html/polyfills/box-sizing/boxsizing.htc);
+  behavior: url(http://localhost/cstore3-html/polyfills/box-sizing/boxsizing.php);
+}
+
+/* Buy Credits Page
+.credit_box .credit-amount .buy_credit_area input#add_credit {
+  height: 37px\9;
+}
+.credit_box .credit-amount .buy_credit_area input#add_credit:-ms-input-placeholder {
+  color: #a9a9a9;
+  height: 38px;
+  line-height: 40px;
+}
+.placeholdersjs {
+  color: #a9a9a9\9 !important;
+}
+.credit_box .credit-amount .usd_credit_area {
+  height: 70px\9 !important;
+}
+
+Forgot Password Page
+.forgot_password_box .password_form input[type="text"], .forgot_password_box .password_form input[type="password"] {
+  width: 350px\9 !important;
+  height: 35px\9 !important;
+}
+
+Order Page
+.order_proccess .content_area .put_content.content_show .content_row a {
+  padding: 10px 20px\9;
+}
+.switcher_box .switcher {
+  width: 270px\9 !important;
+}
+.switcher_box .switcher .switch {
+  width: 50%\9 !important;
+}
+.switcher_box .switcher .switch .label {
+  width: 95px\9 !important;
+}
+
+Profile Page
+.content-profile .profile-left-col .thumbnail .profile_thumb .edit_thumbnail a {
+  height: 35px\9 !important;
+}
+.content-profile .profile-left-col .thumbnail .profile_thumb .edit_thumbnail a .upload_prof_pic {
+  width: 100%\9 !important;
+  height: 35px\9 !important;
+}
+.content-profile .profile-right-col .form-horizontal .profile_form {
+  width: 80%\9 !important;
+}
+.form_half {
+  width: 49%\9 !important;
+}
+.input-lg {
+  width: 100%\9 !important;
+  height: 46px\9 !important;
+}
+
+Sign-in-Register Page
+.order-step-form .order-form input[type='text'], .order-step-form .order-form input[type='email'], .order-step-form .order-form input[type='password'] {
+  width: 100%\9 !important;
+  height: 35px\9 !important;
+}
+
+Project Details
+.project_detail .project_stats dt {
+  width: 28%\9 !important;
+}
+.project_detail .project_stats dd {
+  width: 71%\9 !important;
+}
+.project_accordion .collapsible_menu {
+  width: 100%\9 !important;
+}
+.project_detail .project_files {
+  overflow: hidden\9;
+}
+.project_accordion .collapsible_menu .parent_menu {
+  width: 100%\9 !important;
+}
+.project_detail .project_files > li .grid_1 {
+  width: 53%\9 !important;
+}
+.project_detail .project_files > li .grid_2 {
+  width: 28%\9 !important;
+}
+.project_detail .about_project .text_box textarea {
+  width: 100%\9 !important;
+}
+.conmmunication .email, .conmmunication .live_chat {
+  width: 50%\9 !important;
+}
+
+Store Page
+.store_box .store_left_tabs ul li a {
+  padding: 25px 10px\9;
+}
+.table {
+  width: 100%\9 !important;
+  max-width: 100%\9 !important;
+}
+.payment_summary_table .payment_table table {
+  width: 100%\9 !important;
+} */

@@ -1,0 +1,35 @@
+// HTML5 invalid states
+input, textarea, select{
+
+  outline: none;
+
+  &:required{
+
+    box-shadow: none;
+
+    outline: none;
+
+  }
+
+  &:invalid{
+  
+    box-shadow: none;
+
+    outline: none;
+
+  }
+
+}
+
+
+// ::-mas-clear don't show the x for text inputs
+// ::-ms-reveal don't show the eye for password inputs
+::-ms-clear, ::-ms-reveal{
+
+  width : 0;
+
+  height: 0;
+
+  display: none;
+
+}

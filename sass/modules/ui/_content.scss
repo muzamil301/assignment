@@ -1,0 +1,39 @@
+.white-bg{
+
+	background-color: lighten($black, 100%);
+
+	padding: 50px 0;
+	
+}
+
+.sky-bg{
+
+	background-color: #71b5b5;
+
+	padding: 30px 0;
+
+}
+
+.primary-bg{
+
+	background-color: $primary;
+
+	padding: 30px 0;
+
+}
+
+.secondary-bg{
+
+	background-color: $secondary;
+
+	padding: 30px 0;
+
+}
+
+.grey-bg{
+
+	background-color: $grey;
+
+	padding: 40px 0;
+
+}

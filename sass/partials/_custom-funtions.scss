@@ -1,0 +1,22 @@
+/* SET IMAGES DIRECTORY PATH */
+@function get-path-to-assets($imagesPath){
+
+	@return $imagesPath;
+
+}
+
+
+/* SET CUSTOM FONTS DIRECTORY PATH */
+@function get-path-to-assets($fontsPath){
+
+	@return $fontsPath;
+
+}
+
+
+/* SET POLYFILLS DIRECTORY PATH */
+@function get-path-to-assets($polyfillsPath){
+
+	@return $polyfillsPath;
+
+}

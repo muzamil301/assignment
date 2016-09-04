@@ -1,0 +1,79 @@
+@font-face{
+
+	font-family:'ubuntu-regular';
+
+	src:url('#{$fontsPath}ubuntu/ubuntu-regular.eot');
+
+	src:url('#{$fontsPath}ubuntu/ubuntu-regular.eot?#iefix') format('embedded-opentype'),
+	
+	url('#{$fontsPath}ubuntu/ubuntu-regular.woff') format('woff'),
+	
+	url('#{$fontsPath}ubuntu/ubuntu-regular.ttf') format('truetype'),
+	
+	url('#{$fontsPath}ubuntu/ubuntu-regular.svg#ubuntu-regular') format('svg');
+	
+	font-weight:normal;
+	
+	font-style:normal;
+
+}
+
+@font-face{
+
+	font-family:'ubuntu-light';
+
+	src:url('#{$fontsPath}ubuntu/ubuntu-light.eot');
+
+	src:url('#{$fontsPath}ubuntu/ubuntu-light.eot?#iefix') format('embedded-opentype'),
+	
+	url('#{$fontsPath}ubuntu/ubuntu-light.woff') format('woff'),
+	
+	url('#{$fontsPath}ubuntu/ubuntu-light.ttf') format('truetype'),
+	
+	url('#{$fontsPath}ubuntu/ubuntu-light.svg#ubuntu-light') format('svg');
+	
+	font-weight:normal;
+	
+	font-style:normal;
+
+}
+
+@font-face{
+
+	font-family:'opensans-regular';
+
+	src:url('#{$fontsPath}open-sans/opensans-regular.eot');
+
+	src:url('#{$fontsPath}open-sans/opensans-regular.eot?#iefix') format('embedded-opentype'),
+	
+	url('#{$fontsPath}open-sans/opensans-regular.woff') format('woff'),
+	
+	url('#{$fontsPath}open-sans/opensans-regular.ttf') format('truetype'),
+	
+	url('#{$fontsPath}open-sans/opensans-regular.svg#opensans-regular') format('svg');
+	
+	font-weight:normal;
+	
+	font-style:normal;
+
+}
+
+@font-face{
+
+	font-family:'opensans-light';
+
+	src:url('#{$fontsPath}open-sans/opensans-light.eot');
+
+	src:url('#{$fontsPath}open-sans/opensans-light.eot?#iefix') format('embedded-opentype'),
+	
+	url('#{$fontsPath}open-sans/opensans-light.woff') format('woff'),
+	
+	url('#{$fontsPath}open-sans/opensans-light.ttf') format('truetype'),
+	
+	url('#{$fontsPath}open-sans/opensans-light.svg#opensans-light') format('svg');
+	
+	font-weight:normal;
+	
+	font-style:normal;
+
+}

@@ -1,0 +1,32 @@
+//POSITION MIXIN
+@mixin position($position, $top: null, $right: null, $bottom: null, $left: null){
+
+	position: $position;
+
+	top: $top;
+
+	right: $right;
+
+	bottom: $bottom;
+
+	left: $left;
+
+}
+
+//BUTTON MIXIN
+// bg-color, hover-bg-color, hover-text-color
+@mixin custom-btn($background-color, $hover-bg-color) {
+	
+	border: none;
+
+	background-color: $background-color;
+
+	&:hover, &:focus{
+
+		background-color: $hover-bg-color;
+
+		color: lighten($black, 100%);
+
+	}
+
+}

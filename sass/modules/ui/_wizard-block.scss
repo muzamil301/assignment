@@ -1,0 +1,155 @@
+.wizard-block{
+
+	.h1{
+
+		margin: 0;
+
+	}
+
+	.aside{
+
+		width: 50%;
+
+		margin: 0 auto;
+
+		img{
+
+			margin: 0 auto;
+
+			padding-bottom: 50px;
+
+		}
+
+		.btn{
+
+			background-color: #72b6b6;
+
+			&:hover{
+
+				background-color: darken(#72b6b6, 20%);
+
+			}
+
+		}
+
+	}
+
+	.wizard{
+
+		@media #{$break-large, $break-medium, $break-small, $break-little}{
+
+			margin-top: 20px;
+
+		}
+
+		.wizard-item{
+
+			min-height: 100px;
+
+			display: block;
+
+			&:last-child{
+
+				min-height: auto;
+				
+			}
+
+			.h3{
+
+				color: #000;
+
+				display: table-cell;
+
+				padding-left: 10px;
+
+			}
+
+			a{
+
+				color: #333;
+
+				display: table-cell;
+
+				padding-left: 10px;
+
+				font-size: 16px;
+
+				font-weight: bold;
+
+			}	
+
+			.circle-box{
+
+				float: left;
+
+				display: table-cell;
+
+				.circle{
+
+					width: 24px;
+
+					height: 24px;
+
+					background-color: $grey;
+
+					display: block;
+
+					position: relative;
+
+					@include border-radius(100%);
+
+					&::after{
+
+						content: '';
+
+						width: 6px;
+
+						height: 60px;
+
+						background-color: $sea-green;
+
+						position: absolute;
+
+						top: 28px;
+
+						left: 9px;
+
+
+					}
+
+				}
+
+			}
+
+			&:last-child{
+
+				.circle-box{
+
+					.circle{
+
+						&::after{
+
+							display: none;
+
+						}
+
+					}
+
+				}
+			}
+
+			&:hover, &.active{
+
+				.circle{
+
+					background-color: $primary;
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

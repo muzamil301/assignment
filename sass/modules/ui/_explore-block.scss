@@ -1,0 +1,297 @@
+.explore-block{
+
+	h2{
+
+		margin: 0;
+
+	}
+
+	.carousel{
+
+		.carousel-inner{
+			
+			.thumbnail{
+
+				padding: 0 0 6px;
+
+				border-color: #fff;
+
+				background-color: #f3f3f3;
+
+				@include border-radius(0);
+
+				@include pie;
+
+				@media #{$break-xlarge}{
+
+					min-height: 416px;
+					
+				}
+
+				.img-responsive{
+
+					@media #{$break-medium, $break-small, $break-little}{
+
+						width: 100%;
+
+					}
+
+				}
+
+				.caption{
+
+					background-color: #fff;
+
+					h3{
+
+						font-size: 20px;
+
+						color: #000;
+
+						margin:{
+
+							top: 0;
+
+							bottom: 3px;
+
+						}
+
+						.location{
+
+							margin-bottom: 20px;
+
+						}
+
+					}
+
+					.ratings{
+
+						list-style: none;
+
+						padding-left: 0;
+
+						margin-bottom: 0;
+
+						li{
+
+							display: inline;
+
+							.fa{
+
+								font-size: 12px;
+
+								color: #cbcbcb;
+								
+								&.active{
+
+									color: $sea-green;
+
+								}
+
+							}
+
+						}
+
+					}
+
+					.rate{
+
+						color: #cbcbcb;
+
+						margin-bottom: 0;
+
+					}
+
+				}
+
+				.facilities{
+
+					list-style: none;
+
+					padding-left: 0;
+
+					margin-bottom: 0;
+
+					padding: 12px 9px 0;
+
+					@media #{$break-xlarge}{
+
+						padding: 12px 4px 0;
+					
+					}
+
+					li{
+
+						width: 33px;
+
+						height: 34px;
+
+						display: inline-block;
+
+						text-align: center;
+
+						padding: 9px 0;
+
+						@media #{$break-xlarge}{
+
+							margin-bottom: 5px;
+
+						}
+
+						.fa{
+
+							width: 18px;
+
+							text-align: center;
+
+							vertical-align: top;
+
+							font-size: 16px;
+												
+							color: #fff;
+
+						}
+
+						&.bg-sky{
+
+							background-color: #26aba0;
+							
+						}
+
+						&.bg-green{
+
+							background-color: #5cad73;
+
+						}
+
+						&.bg-primary{
+
+							background-color: $primary;
+
+						}
+
+						&.bg-blue{
+
+							background-color: #1282a7;
+
+						}
+
+						&.bg-red{
+
+							background-color: #d63755;
+
+						}
+
+					}
+					
+				}
+
+			}
+
+		}
+
+		.carousel-control{
+
+			background-color: transparent;
+
+			background-image: none;
+
+			opacity: 1;
+
+			width: auto;
+
+			@media #{$break-large, $break-medium, $break-small, $break-little}{
+
+				display: none;
+				
+			}
+
+			&.left{
+
+				left: -15px;
+
+				@media #{$break-xlarge}{
+
+					left: -5px;
+
+				}
+
+				@media #{$break-large, $break-medium, $break-small, $break-little}{
+
+					left: -1px;
+
+				}
+					
+			}
+
+			&.right{
+
+				right: -15px;
+
+				@media #{$break-xlarge}{
+
+					right: -5px;
+					
+				}
+
+				@media #{$break-large, $break-medium, $break-small, $break-little}{
+
+					right: -21px;
+					
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+.link-box{
+
+	margin:{
+
+		top: 40px;
+		
+		bottom: 40px;
+
+	}
+
+	@media #{$break-large, $break-medium, $break-small, $break-little}{
+
+		margin: 20px 0;
+
+	}
+	
+	.btn{
+
+		min-width: 208px;
+
+		@media #{$break-small, $break-little}{
+
+			margin-bottom: 10px;
+
+			&:last-child{
+
+				margin-bottom: 0;
+				
+			}
+		
+		}
+
+	}
+	
+	.btn-grey{
+
+		background-color: darken($grey, 20%);
+
+		&:hover{
+
+			color: lighten($black, 100%);
+
+		}
+
+	}
+
+}

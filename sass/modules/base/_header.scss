@@ -1,0 +1,156 @@
+.header{
+
+	min-height: 82px;
+
+	background-color: $black;
+
+	.navbar{
+
+		background-color: transparent;
+
+		border: none;
+
+		margin-bottom: 0;
+
+		min-height: auto;
+
+		.navbar-brand{
+
+			height: auto;
+
+			padding: 16px;
+
+			margin-left: 0;
+
+		}
+
+		.navbar-collapse{
+
+			border: none;
+
+			@media #{$break-large, $break-medium, $break-small, $break-little}{
+
+				margin: 0;
+
+				padding: 0;
+
+			}
+
+			ul{
+
+				padding: 16px 0;
+
+				float: right;
+
+				@media #{$break-large, $break-medium, $break-small, $break-little}{
+
+					float: none;
+
+					padding: 10px 0;
+
+					margin: 0;
+
+				}
+
+				li{
+
+					margin-right: 10px;
+
+					@media #{$break-xlarge}{
+
+						margin-right: 5px;
+
+					}
+
+					@media #{$break-large, $break-medium, $break-small, $break-little}{
+
+						margin-right: 0;
+						 
+					}
+
+					a{
+
+						color: #fff;
+
+						line-height: normal;
+
+						@media #{$break-xlarge}{
+
+							font-size: 14px;
+
+						}
+
+						@media #{$break-large, $break-medium, $break-small, $break-little}{
+
+							text-align: left;
+
+							background-color: transparent;
+
+							&:hover{
+
+								background-color: $primary !important;
+
+								text-decoration: none !important;
+
+							}
+
+						}
+
+					}
+
+					.nav-links{
+
+						color: #fff;
+						
+						font-size: 13px;
+
+						padding:{
+
+							top: 17px;
+
+							bottom: 17px;
+							
+						}
+
+						@media #{$break-large, $break-medium, $break-small, $break-little}{
+							
+							padding: 10px 15px;
+
+						}
+
+						&:hover, &:focus{
+
+							text-decoration: underline;
+
+						}
+
+					}
+
+					.btn{
+
+						padding: 10px 15px;
+
+					}
+
+				}
+
+			}
+
+		}
+
+		.navbar-toggle{
+
+			margin-top: 22px;
+
+			.icon-bar{
+
+				background-color: $primary;
+
+			}
+
+		}
+
+
+	}
+
+}

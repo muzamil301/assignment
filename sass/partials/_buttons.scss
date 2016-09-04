@@ -1,0 +1,105 @@
+a{
+
+	@include transition(all .3s);
+
+	&:hover, &:focus, &:active{
+
+		outline: none;
+
+		text-decoration: none;
+
+	}
+
+}
+
+button, .btn{
+
+	height: 40px;
+
+	font:{
+
+		weight: 400;
+
+		size: 16px;
+
+		family: $ubuntu-regular;
+		
+	}
+
+	color: lighten($black, 100%);
+
+	padding: 8px 15px;
+
+	outline: none !important;
+
+	@include transition(all .5s);
+
+	@include border-radius(0);
+
+	@include pie;
+
+	&:hover,&:focus{
+
+		outline: none !important;
+
+	}
+
+}
+
+.btn-nofill{
+
+	height: 82px;
+
+	font-size: 22px;
+
+	text-align: center;
+
+	padding: 24px 35px;
+
+	background: transparent;
+
+	border: 1px solid lighten($black, 100%);
+
+	color: lighten($black, 100%);
+
+	&:hover, &:focus{
+
+		background-color: lighten($black, 100%);
+
+		color: $primary;
+
+		border-color: $primary;
+	}
+
+}
+
+// bg-color, hover-bg-color
+.btn-primary{
+
+	@include custom-btn($primary, darken($primary, 5%) !important);
+
+}
+
+.btn-secondary{
+
+	@include custom-btn($secondary, darken($secondary, 10%) !important);
+
+}
+
+.btn-grey{
+
+	@include custom-btn($grey, darken($grey, 10%) !important);
+
+}
+
+.btn-sea-green{
+
+	@include custom-btn($sea-green, darken($sea-green, 5%));
+
+	&:hover, &:focus{
+
+		color: #fff;
+
+	}
+
+}
